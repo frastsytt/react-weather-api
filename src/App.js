@@ -37,11 +37,13 @@ function App() {
 
 
   return (
-      <container className='sample'>
-        <card className='text-center m-5 '>
+      <container>
+        <div className='App-header bg-info bg-opacity-25 text-black'>
+        <card className='text-center m-2 p-2'>
           {isFetched && <Weather city={cityData}/>}
           <WeatherForm onChangeCity={changeCity} />
         </card>
+        </div>
       </container>
   );
 }

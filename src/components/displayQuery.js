@@ -2,10 +2,10 @@ import React from 'react';
 
 const Weather = (props) => {
     return (
-        <div>
-            <h2>City: {props.city.name}</h2>
+        <div className='card mx-5 bg-info bg-opacity-10'>
+            <h2>{props.city.name}</h2>
             <p>Description: {props.city.desc}</p>
-            <p>Temperature: {props.city.temp}°C</p>
+            <p>Temperature: <b>{props.city.temp}°C</b></p>
         </div>
     );
 }

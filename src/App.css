@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: goldenrod;
 }
 
 .App-logo {
@@ -15,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #32a6a8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,7 +37,3 @@
   }
 }
 
-
-.sample {
-  background-color: goldenrod;
-}

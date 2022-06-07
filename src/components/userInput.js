@@ -12,8 +12,8 @@ const WeatherForm = (props) => {
         <div>
             <form onSubmit={submitHandler}>
                 <label className='h5'>Change city:</label> <br></br>
-                <input className='text-center' onChange={(e) => setCity(e.target.value)}/>
-                <br></br><button className='mt-2' type='submit'>Submit</button>
+                <input className='text-center w-50' onChange={(e) => setCity(e.target.value)}/>
+                <br></br><button className='btn btn-primary mt-2' type='submit'>Submit</button>
             </form>
         </div>
     );
